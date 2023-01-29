@@ -1,0 +1,88 @@
+<!doctype html>
+<head>
+    <title>Thu han Tun survey form</title>
+    <style>
+        body{
+           
+           padding-top: 30px;
+       }
+       form{
+            width: 20%;
+            height: 450px;
+            color: white;
+            background: linear-gradient(to right, rgb(20, 19, 19), rgb(233, 61, 61));
+            border: 1px solid black;
+            padding: 30px;
+            margin-left: auto ;
+            margin-right: auto;
+            
+        }
+        #fsone{
+            width: 80%;
+        }
+        #fstwo{
+            height: 90%;
+        }
+        #fsthree{
+            margin-top: 55px;
+        }
+        #one{
+            margin-top: 10px;
+            margin-left: 80%;
+        }
+        
+    </style>
+</head>
+<body>
+   
+    <form action="">
+        <fieldset id="fstwo">
+            <legend>Survey form</legend>
+        <label for="firstname" auto>First name</label><br>
+        <input type="text" name="firstname" autocomplete="off" >
+        <br><br>
+        <label for="lastname">Last name</label><br>
+        <input type="text" name="lastname" autocomplete="off">
+        <br><br>
+
+        <fieldset id="fsone" >
+            <legend>Gender</legend>
+            
+            <input type="radio" name="male" >
+            <label for="male">Male</label>
+            
+            <input type="radio" name="female" >
+            <label for="female">Female</label>
+            
+            <input type="radio" name="other" >
+            <label for="other">Other</label>
+        </fieldset>
+        <br><br>
+
+    <label for="language">Choose your language</label>
+    <select name="language">
+        <option value="C++">C++</option>
+        <option value="java">java</option>
+        <option value="html">html</option>
+        <option value="CSS">CSS</option>
+    </select>
+      <br><br>
+      <fieldset id="fsthree">
+        <legend>your favourite language</legend>
+      <label for="checkbox">C++</label>
+      <input type="checkbox" name="C++" >
+      <label for="checkbox">java</label>
+      <input type="checkbox" name="java" >
+      <label for="checkbox">html</label>
+      <input type="checkbox" name="html" >
+      <label for="checkbox">CSS</label>
+      <input type="checkbox" name="CSS" >
+      </fieldset>
+
+      <input type="button" value="submit" id="one"> 
+    </fieldset>
+    
+
+    </form>
+   
+</body>
